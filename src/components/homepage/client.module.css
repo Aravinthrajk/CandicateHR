@@ -1,0 +1,50 @@
+/* styles.css */
+.marqueeAnimation {
+  animation: marquee 10s linear infinite; /* Apply animation directly */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* TextAnimation.module.css */
+/* @keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-40%);
+  }
+  100% {
+    transform: translateX(-40);
+  }
+}
+
+.textAnimation {
+  animation: slideInFromLeft 3s ease-in-out;
+} */
+/* TextAnimation.module.css */
+/* SlideDownAnimation.module.css */
+@keyframes slideDown {
+  from {
+    margin-top: -100%;
+    height: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+
+.slideDownContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slideDownText {
+  animation: 3s slideDown ;
+  margin-top: 0%;
+}
+
