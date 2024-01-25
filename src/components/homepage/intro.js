@@ -48,7 +48,6 @@ const Intro = () => {
 
             <Grid item xs={12} sm={12} md={6}>
               <Box
-                // bgcolor="rgb(0, 78, 84,0.5)"
                 sx={{
                   display: "flex",
                   justifyContent: "center",
